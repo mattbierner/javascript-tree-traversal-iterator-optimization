@@ -1,26 +1,25 @@
 {
-  "name": "javascript-tree-traversal-iterator-optimization",
-  "private": true,
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mattbierner/dawg-set.git"
-  },
-  "keywords": [],
-  "author": "Matt Bierner (http://mattbierner.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mattbierner/dawg-set/issues"
-  },
-  "homepage": "https://github.com/mattbierner/dawg-set#readme",
-  "devDependencies": {
-
-  },
-  "dependencies": {
-    "benchmark": "^2.1.0"
-  }
+    "name": "javascript-tree-traversal-iterator-optimization",
+    "private": true,
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "benchmark": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mattbierner/dawg-set.git"
+    },
+    "keywords": [],
+    "author": "Matt Bierner (http://mattbierner.com/)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mattbierner/dawg-set/issues"
+    },
+    "homepage": "https://github.com/mattbierner/dawg-set#readme",
+    "devDependencies": {},
+    "dependencies": {
+        "benchmark": "^2.1.0"
+    }
 }
