@@ -17,7 +17,7 @@ $ npm run benchmark
 ### Adding a new benchmark
 All implementations are stored in `./benchmarks/`. To add a new one, simply create a new file that looks like this:
 
-```
+```js
 "use strict";
 
 module.exports = {
@@ -28,10 +28,12 @@ module.exports = {
 
 Then in `index.js`, add the iterator to the pre_benchmarks like so:
 
+```js
 const pre_benchmarks = [
     ...,
     iteratorTest(require('./benchmarks/my_new_benchmark'))
 ];
+```
 
 It will now be included in the test.
 
